@@ -1,0 +1,110 @@
+/* wirefram styles */
+/* code global first */
+* {
+    border: solid 1px red;
+}
+
+/* global styles */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* header styles */
+
+html {
+    font-size: 16px;
+}
+
+/* main content styles */
+
+header {
+    padding: .5em;
+    min-height: 50px;
+    position: relative;
+    background: purple;
+    color: #eeeeee;
+    border-bottom: solid 5px rgb(204, 105, 204);
+}
+
+nav {
+    min-height: 50px;
+    position: absolute;
+    right: 1em;
+    top: 0.5em;
+}
+
+button {
+    width: 100px;
+    min-height: 40px;
+    color: #ffffff;
+    background-color: #6f00ff;
+    border: 3px solid #000000;
+    border-radius: 12px;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #ff00b7;
+    color: #ffffff;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 45%;
+    top: -35px;
+}
+
+
+.container {
+    min-height: 50vh;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+figcaption {
+    padding: 1%;
+}
+
+/* contact styles */
+
+h2 {
+    text-align: center;
+    margin-top: 1%;
+}
+
+form {
+    display: inline-flex;
+    padding: 1%;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 39%;
+    width: 20%;
+}
+
+#contact {
+    background-color: rgb(204, 105, 204);
+    color: black;
+    border-top: solid 5px purple;
+}
+
+/* footer styles */
+
+footer {
+    text-align: center;
+    padding: .7%;
+    background-color: purple;
+    color: white;
+    font-size: 1.2em;
+}
